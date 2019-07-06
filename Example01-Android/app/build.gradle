@@ -29,12 +29,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation('io.socket:socket.io-client:0.8.3') { //replace x.x.x by 0.8.3 or newer version
-        exclude group: 'org.json', module: 'json'
-    }
     implementation 'com.android.support:recyclerview-v7:28.0.0'
 
     implementation 'io.reactivex:rxandroid:1.2.1'
     implementation 'io.reactivex:rxjava:1.1.5'
-    implementation 'com.github.kamigane123:AndroidLibraryWS:1.0.7'
+    implementation 'com.github.eiscupc:Synapse-Android:1.0.0'
 }

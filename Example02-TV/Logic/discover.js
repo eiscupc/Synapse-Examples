@@ -1,7 +1,7 @@
 var listAvaliableServers = [];
 
 function entablishConnection(url) {
-  $(location).attr("href", "./Game/menu.html?url=" + url);
+  $(location).attr("href", "./example.html?url=" + url);
 }
 
 function avaliableServersToDiv(server) {
